@@ -20,6 +20,7 @@
     --background-color: #CD6BDB;
     --first-accent-color: #E0E500;
     --second-accent-color: #041760;
+    --gradient: linear-gradient(140deg, rgba(219,188,107,1) 0%, rgba(164,255,0,1) 55%, rgba(4,96,42,1) 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,5 +28,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+/* Header styles */
+
+header {
+    background: var(--gradient);
+    height: 10vh;
+}
 
 
