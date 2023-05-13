@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header styles */
 
 header {
-    background: var(--first-accent-color);
+    background: rgb(188,160,136);
     height: 10vh;
     align-items: center;
 }
@@ -78,18 +78,26 @@ header {
 
 .new-game-wrapper p {
     font-size: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .new-game-wrapper label {
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
-.new-game-wrapper input {
-    max-width: 20rem;
+.new-game-wrapper .text-input {
+    width: 100%;
+    max-width: 25rem;
     height: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-
+.new-game-wrapper button {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--background-color);
+    border-radius: .5rem;
+}
 
