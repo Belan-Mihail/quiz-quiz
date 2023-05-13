@@ -18,8 +18,7 @@
 :root {
     --text-color: #000;
     --background-color: #ce6bdb9f;
-    --first-accent-color: #e1e500d3;
-    --second-accent-color: #041760;
+    --accent-color: rgb(72, 42, 17);
     --gradient: linear-gradient(140deg, rgba(219,188,107,1) 0%, rgba(164,255,0,1) 55%, rgba(4,96,42,1) 100%);
 }
 
@@ -31,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header styles */
 
 header {
-    background: rgb(188,160,136);
+    background: var(--accent-color);
     height: 10vh;
     align-items: center;
 }
