@@ -25,3 +25,12 @@ function createQuizStructure () {
     quiz.innerHTML = quizStructure;    
 }
 
+/**
+* Add onclick to Start Game buttons with a function which new game starting
+*/
+
+document.getElementById('new-game-btn').onclick = () => {
+    document.getElementById('new-game').classList.add('none');
+    document.getElementById('quiz').classList.remove('none');
+    createQuizStructure ();
+}
