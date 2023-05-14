@@ -26,7 +26,7 @@
             <div class="new-game-wrapper">
                 <p>Hello! Let's brainstorm a little! Enter your name and click Start Game</p>
                 <label for="yname" class="label">Your name</label>
-                <input type="text" id="yname" name="user_name" required placeholder="Enter your name" class="text-input">
+                <input type="text" onkeyup="checkUserName()" id="yname" name="user_name" required placeholder="Enter your name" class="text-input">
                 <button type="submit" id="new-game-btn">Start Game</button>
             </div>
         </div>
