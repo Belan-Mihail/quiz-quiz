@@ -10,15 +10,15 @@ function createQuizStructure () {
         <div class="quiz-questions">
             <p id="questions"></p>
         </div>
-        <div class=quiz-answers-block>
+        <div class="quiz-answers-block">
             <button class="answer" id='answerOne'></button>
             <button class="answer" id='answerTwo'></button>
             <button class="answer" id='answerThree'></button>
             <button class="answer" id='answerFour'></button>
         </div>
         <div class="quiz-score" id="quiz-score">
-            <p class="scores">Correct Answers<span id="score">0</span></p>
-            <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
+            <p class="scores">Correct Answers:<span id="score">0</span></p>
+            <p class="scores">Incorrect Answers:<span id="incorrect">0</span></p>
         </div>
     </div>
     `
