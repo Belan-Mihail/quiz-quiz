@@ -101,6 +101,22 @@ header {
     border-radius: .5rem;
 }
 
+/* Quiz */
+
+.quiz {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--gradient);
+}
+
+.quiz-questions {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
 /* Footer */
 
 .footer-wrapper {
