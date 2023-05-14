@@ -20,7 +20,7 @@
     --text-white: #fff;
     --accent-color: #ce6bdb9f;
     --background-color: rgb(72, 42, 17);
-    --gradient: linear-gradient(140deg, rgba(219,188,107,1) 0%, rgba(164,255,0,1) 55%, rgba(4,96,42,1) 100%);
+    --gradient: linear-gradient(140deg, rgba(4,96,42,1) 0%, rgba(164,255,0,1) 49%, rgba(4,96,42,1) 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
