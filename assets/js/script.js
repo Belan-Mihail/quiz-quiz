@@ -1,4 +1,13 @@
 
+/**
+* Add onclick to Start Game buttons with a function which new game starting
+*/
+
+document.getElementById('new-game-btn').onclick = () => {
+    document.getElementById('new-game').classList.add('none');
+    document.getElementById('quiz').classList.remove('none');
+    createQuizStructure ();
+}
 
 /**
 * Function to create the semantic structure of the quiz
@@ -25,12 +34,22 @@ function createQuizStructure () {
     quiz.innerHTML = quizStructure;    
 }
 
+
 /**
-* Add onclick to Start Game buttons with a function which new game starting
+* adding variable with quiz content
 */
 
-document.getElementById('new-game-btn').onclick = () => {
-    document.getElementById('new-game').classList.add('none');
-    document.getElementById('quiz').classList.remove('none');
-    createQuizStructure ();
-}
+var quizContent = [{
+    ident: 0,
+    question: "What is the smallest bird?",
+    answers: [
+        {answerText: "Hummingbird"},
+        {answertText: "Sparrow"},
+        {answerText: "Tit"},
+        {answerText: "Condor"}
+    ],
+    correct: 'Hummingbird'
+},
+{
+
+}]
