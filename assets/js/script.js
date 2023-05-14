@@ -91,15 +91,45 @@ var quizContent = [{
 },
 {
     ident: 3,
-    question: "Who is the fastest animal?",
+    question: "Where is the grasshopper's ear?",
     answers: [
-        {answerText: "Leopard"},
-        {answertText: "Jaguar"},
-        {answerText: "Cheetah"},
-        {answerText: "Antelope"}
+        {answerText: "On the forehead"},
+        {answertText: "On the back"},
+        {answerText: "On the foot"},
+        {answerText: "He has no ears"}
     ],
-    correct: 'Cheetah'
+    correct: 'On the foot'
 },
 {
-
+    ident: 4,
+    question: "Which pharaoh had the largest pyramid built?",
+    answers: [
+        {answerText: "Tuttankhammu"},
+        {answertText: "Khafre"},
+        {answerText: "Cheops"},
+        {answerText: "Ramses 3"}
+    ],
+    correct: 'Cheops'
+},
+{
+    ident: 5,
+    question: "According to the legend of the founders of Ancient Rome, she brought up?",
+    answers: [
+        {answerText: "Fox"},
+        {answertText: "Goat"},
+        {answerText: "Bear"},
+        {answerText: "She-wolf"}
+    ],
+    correct: 'She-wolf'
+},
+{
+    ident: 6,
+    question: "What are the stories about the adventures of Robin Hood?",
+    answers: [
+        {answerText: "Annals"},
+        {answertText: "Novels"},
+        {answerText: "Poems"},
+        {answerText: "Ballads"}
+    ],
+    correct: 'Ballads'
 }];
