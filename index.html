@@ -22,7 +22,7 @@
     <!-- main start -->
     <main>
         <!-- block new game -->
-        <div class="new-game" id="new-game">
+        <div class="new-game none" id="new-game">
             <div class="new-game-wrapper">
                 <p>Hello! Let's brainstorm a little! Enter your name and click Start Game</p>
                 <label for="yname" class="label">Your name</label>
@@ -31,7 +31,23 @@
             </div>
         </div>
         <!-- quiz wrapper -->
-        <div class="quiz none" id="quiz"></div>
+        <div class="quiz" id="quiz">
+            <div class="quiz-block" id="quiz-block">
+                <div class="quiz-questions">
+                    <p id="questions"></p>
+                </div>
+                <div class=quiz-answers-block>
+                    <button class="answer" id='answerOne'></button>
+                    <button class="answer" id='answerTwo'></button>
+                    <button class="answer" id='answerThree'></button>
+                    <button class="answer" id='answerFour'></button>
+                </div>
+                <div class="quiz-score" id="quiz-score">
+                    <p class="scores">Correct Answers<span id="score">0</span></p>
+                    <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- main end -->
     <!-- footer start -->

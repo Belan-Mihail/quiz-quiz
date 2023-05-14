@@ -7,7 +7,7 @@
 function createQuizStructure () {
     let quizStructure = `
     <div class="quiz-block" id="quiz-block">
-        <div class="qiuz-questions">
+        <div class="quiz-questions">
             <p id="questions"></p>
         </div>
         <div class=quiz-answers-block>
