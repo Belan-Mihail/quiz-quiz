@@ -24,3 +24,4 @@ function createQuizStructure () {
     `
     quiz.innerHTML = quizStructure;    
 }
+
