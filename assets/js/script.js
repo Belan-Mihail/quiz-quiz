@@ -247,4 +247,14 @@ function fillQuizContent(ident) {
      
 }
 
+/**
+* variable needed for subsequent iteration of the quizContent array
+*/
+
 var ident = 1;
+
+/**
+* a function inside which iterates through the quizContent array 
+* and fills in subsequent questions when you click on the answer
+*/
+
