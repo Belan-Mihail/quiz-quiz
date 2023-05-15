@@ -132,4 +132,38 @@ var quizContent = [{
         {answerText: "Ballads"}
     ],
     correct: 'Ballads'
-}];
+},
+{
+    ident: 7,
+    question: "The huge power of the Mongols was created:",
+    answers: [
+        {answerText: "Batu"},
+        {answertText: "Genghis Khan"},
+        {answerText: "Tamerlane"},
+        {answerText: "Suleiman"}
+    ],
+    correct: 'Genghis Khan'
+},
+{
+    ident: 8,
+    question: "Which country's capital is located on the Nile River?",
+    answers: [
+        {answerText: "Egypt"},
+        {answertText: "USA"},
+        {answerText: "India"},
+        {answerText: "Ukraine"}
+    ],
+    correct: 'Egypt'
+},
+{
+    ident: 9,
+    question: "Which country's capital is Tokyo?",
+    answers: [
+        {answerText: "Mexico"},
+        {answertText: "Thailand"},
+        {answerText: "Egypt"},
+        {answerText: "Japan"}
+    ],
+    correct: 'Japan'
+},
+];
