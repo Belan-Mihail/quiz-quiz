@@ -148,6 +148,13 @@ header {
     color: var(--background-color);
 }
 
+.reaction {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Footer */
 
 .footer-wrapper {

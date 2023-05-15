@@ -276,7 +276,7 @@ function nextQuestions() {
 
             userAnswer = this.innerText;
             checkAnswers();
-            if (ident < 15) {
+            if (ident < 16) {
                 fillQuizContent(ident);
                 ident++;
             }
@@ -288,16 +288,6 @@ function nextQuestions() {
 /**
 * a function that will check the answers
 */
-
-// function checkAnswers() {
-//     for (let i = 0; i < quizContent[ident].correct.length; i++) {
-//         if (quizContent[i].correct.includes(this.userAnswer)) {
-//             alert('Correct');
-//         } else {
-//             alert('Wrong');
-//         }
-//     }
-// }
 
 function checkAnswers() {
     if (quizContent[0].correct.includes(this.userAnswer)) {
