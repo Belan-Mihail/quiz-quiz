@@ -233,3 +233,16 @@ var quizContent = [{
     correct: 'Darkness'
 }
 ];
+
+/**
+* adding function wich fill quiz content
+*/
+
+function fillQuizContent(ident) {
+    document.getElementById('questions').innerText = quizContent[ident].question;
+    document.getElementById('answerOne').innerText = quizContent[ident].answers[0].answerText;   
+    document.getElementById('answerTwo').innerText = quizContent[ident].answers[1].answerText;   
+    document.getElementById('answerThree').innerText = quizContent[ident].answers[2].answerText;   
+    document.getElementById('answerFour').innerText = quizContent[ident].answers[3].answerText;   
+     
+}
