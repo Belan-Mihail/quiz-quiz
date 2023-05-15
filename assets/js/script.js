@@ -266,6 +266,7 @@ var userAnswer = '';
 * a function inside which iterates through the quizContent array 
 * and fills in subsequent questions when you click on the answer
 */
+var finalScore = '';
 
 function nextQuestions() {
     
@@ -280,11 +281,11 @@ function nextQuestions() {
                 fillQuizContent(ident);
                 ident++;
             } else {
+                finalScore = document.getElementById('score').innerText;
                 gameOver();
             }
         })
     }
-    gameOver();
 };
 
 
@@ -372,8 +373,8 @@ function incrementCorrectAnswers() {
 
 //function to increase points for incorrect answers
 function incrementIncorrectAnswers() {
-    let oldScore = document.getElementById('incorrect').innerText;
-    document.getElementById('incorrect').innerText = ++oldScore;
+    let oldIncorrectScore = document.getElementById('incorrect').innerText;
+    document.getElementById('incorrect').innerText = ++oldIncorrectScore;
 }
 
 //function to end the game
@@ -381,11 +382,16 @@ function gameOver() {
     let endQuizStructure = `
     <div class="result-block" id="result-block">
         <h2 class="result-block-header"><span>Dear</span> ${user.value}...</h2>
-        <p class="result">You result is <span id="result"></span></p>
+        <p class="result">You result is <span id="result"></span><span>%</span></p>
         <p class="conclusion" id="conclusion"></p>
         <button class="restart-quiz" id="restart">Restart Quiz</button>
     </div>
     `;
     document.getElementById('quiz').innerHTML = endQuizStructure;
-    calculateResult()
+    calculateResult();
+}
+
+function calculateResult() {
+    
+    document.getElementById('result').innerText = Math.round(finalScore / 16 * 100);
 }

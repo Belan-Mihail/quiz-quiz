@@ -176,8 +176,11 @@ header {
     margin: 2rem 0;
 }
 
-#result {
+.result span {
     color: var(--secondary-color);
+}
+
+#result {
     margin-left: 3rem;
 }
 
