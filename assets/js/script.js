@@ -394,4 +394,11 @@ function gameOver() {
 function calculateResult() {
     
     document.getElementById('result').innerText = Math.round(finalScore / 16 * 100);
+    if (finalScore <= 8) {
+        document.getElementById('conclusion').innerText = 'You should read more books';   
+    } else if (finalScore >= 8 && finalScore <= 13) {
+        document.getElementById('conclusion').innerText = 'Did you do well in school?'; 
+    } else {
+        document.getElementById('conclusion').innerText = 'You are a damn genius!';
+    }
 }
