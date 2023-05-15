@@ -51,7 +51,7 @@ function createQuizStructure () {
         </div>
     </div>
     `;
-    quiz.innerHTML = quizStructure;
+    document.getElementById('quiz').innerHTML = quizStructure;
     fillQuizContent('0');  
     nextQuestions();  
 }
@@ -279,9 +279,12 @@ function nextQuestions() {
             if (ident < 16) {
                 fillQuizContent(ident);
                 ident++;
+            } else {
+                gameOver();
             }
         })
     }
+    
 };
 
 
@@ -371,4 +374,18 @@ function incrementCorrectAnswers() {
 function incrementIncorrectAnswers() {
     let oldScore = document.getElementById('incorrect').innerText;
     document.getElementById('incorrect').innerText = ++oldScore;
+}
+
+//function to end the game
+function gameOver() {
+    let endQuizStructure = `
+    <div class="result-block" id="result-block">
+        <h2 class="result-block-header">Dear ${user.value}...</h2>
+        <p class="result">You result is <span id="result"></span></p>
+        <p class="conclusion" id="conclusion"></p>
+        <button class='restart-quiz" id="restart">Restart Quiz</button>
+    </div>
+    `;
+    document.getElementById('quiz').innerHTML = endQuizStructure;
+    calculateResult()
 }
