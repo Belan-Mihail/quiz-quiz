@@ -255,6 +255,12 @@ function fillQuizContent(ident) {
 var ident = 1;
 
 /**
+* a variable that will store the user's responses
+*/
+
+let userAnswer = '';
+
+/**
 * a function inside which iterates through the quizContent array 
 * and fills in subsequent questions when you click on the answer
 */
@@ -264,11 +270,18 @@ function nextQuestions() {
     for (button of buttons) {
 
         button.addEventListener('click', function() {
+
+            userAnswer = this.innerText;
+            checkAnswers();
             if (ident < 16) {
                 fillQuizContent(ident);
                 ident++;
             }
         })
     }
-    
-}
+};
+
+
+/**
+* a function that will check the answers
+*/
