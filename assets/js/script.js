@@ -13,23 +13,18 @@ function checkUserName () {
 }
 };
 
-
 document.addEventListener("DOMContentLoaded", checkUserName());
 
-/**
-* Add onclick to Start Game buttons with a function which new game starting
-*/
 
+// Add onclick to Start Game buttons with a function which new game starting
 document.getElementById('new-game-btn').onclick = () => {
     document.getElementById('new-game').classList.add('none');
     document.getElementById('quiz').classList.remove('none');
     createQuizStructure();
 };
 
-/**
-* Function to create the semantic structure of the quiz
-*/
 
+// Function to create the semantic structure of the quiz
 function createQuizStructure () {
     let quizStructure = `
     <div class="quiz-block" id="quiz-block">
@@ -56,10 +51,8 @@ function createQuizStructure () {
     nextQuestions();  
 }
 
-/**
-* adding variable with quiz content
-*/
 
+// adding variable with quiz content
 var quizContent = [{
     ident: 0,
     question: "What is the smallest bird?",
@@ -238,61 +231,54 @@ var quizContent = [{
 }
 ];
 
-/**
-* adding function wich fill quiz content
-*/
 
+// adding function wich fill quiz content
 function fillQuizContent(ident) {
     document.getElementById('questions').innerText = quizContent[ident].question;
     document.getElementById('answerOne').innerText = quizContent[ident].answers[0].answerText;   
     document.getElementById('answerTwo').innerText = quizContent[ident].answers[1].answerText;   
     document.getElementById('answerThree').innerText = quizContent[ident].answers[2].answerText;   
     document.getElementById('answerFour').innerText = quizContent[ident].answers[3].answerText;   
-     
 }
 
-/**
-* variable needed for subsequent iteration of the quizContent array
-*/
 
+// variable needed for subsequent iteration of the quizContent array
 var ident = 1;
 
-/**
-* a variable that will store the user's responses
-*/
+
+//a variable that will store the user's responses
 var userAnswer = '';
+
+//declaration of a variable in which the final answer will be written
+var finalScore = '';
 
 /**
 * a function inside which iterates through the quizContent array 
 * and fills in subsequent questions when you click on the answer
 */
-var finalScore = '';
-
 function nextQuestions() {
     
     let buttons = document.getElementsByClassName('answer');
     for (button of buttons) {
 
         button.addEventListener('click', function() {
-
+            
+            //recording on click of the current user response and calling the response check function
             userAnswer = this.innerText;
             checkAnswers();
             if (ident < 16) {
                 fillQuizContent(ident);
                 ident++;
             } else {
-                finalScore = document.getElementById('score').innerText;
-                gameOver();
+                finalScore = document.getElementById('score').innerText; //writing the final result to a variable
+                gameOver(); //when the questions are over, the function is called
             }
         })
     }
 };
 
 
-/**
-* a function that will check the answers
-*/
-
+//a function that will check the answers
 function checkAnswers() {
     if (quizContent[0].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
@@ -377,7 +363,7 @@ function incrementIncorrectAnswers() {
     document.getElementById('incorrect').innerText = ++oldIncorrectScore;
 }
 
-//function to end the game
+//function to end the game. overwrites the semantics of the page
 function gameOver() {
     let endQuizStructure = `
     <div class="result-block" id="result-block">
@@ -388,15 +374,15 @@ function gameOver() {
     </div>
     `;
     document.getElementById('quiz').innerHTML = endQuizStructure;
-    calculateResult();
+    calculateResult(); 
 
+    //click on the restart button to restart the quiz and reset the variable
     document.getElementById('restart').onclick = () => {
         createQuizStructure ();
         ident = 1;
     };
-
 }
-
+//a function that calculates the result and outputs a conclusion
 function calculateResult() {
     
     document.getElementById('result').innerText = Math.round(finalScore / 16 * 100);
