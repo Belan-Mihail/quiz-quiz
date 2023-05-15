@@ -48,9 +48,9 @@ function createQuizStructure () {
         </div>
     </div>
     `;
-    quiz.innerHTML = quizStructure;    
+    quiz.innerHTML = quizStructure;
+    fillQuizContent('0');    
 }
-
 
 /**
 * adding variable with quiz content
@@ -61,7 +61,7 @@ var quizContent = [{
     question: "What is the smallest bird?",
     answers: [
         {answerText: "Hummingbird"},
-        {answertText: "Sparrow"},
+        {answerText: "Sparrow"},
         {answerText: "Tit"},
         {answerText: "Condor"}
     ],
@@ -72,7 +72,7 @@ var quizContent = [{
     question: "Who has the longest tongue?",
     answers: [
         {answerText: "Giraffe"},
-        {answertText: "Chameleon"},
+        {answerText: "Chameleon"},
         {answerText: "Ant-eater"},
         {answerText: "Frog"}
     ],
@@ -83,7 +83,7 @@ var quizContent = [{
     question: "Who is the fastest animal?",
     answers: [
         {answerText: "Leopard"},
-        {answertText: "Jaguar"},
+        {answerText: "Jaguar"},
         {answerText: "Cheetah"},
         {answerText: "Antelope"}
     ],
@@ -94,7 +94,7 @@ var quizContent = [{
     question: "Where is the grasshopper's ear?",
     answers: [
         {answerText: "On the forehead"},
-        {answertText: "On the back"},
+        {answerText: "On the back"},
         {answerText: "On the foot"},
         {answerText: "He has no ears"}
     ],
@@ -105,7 +105,7 @@ var quizContent = [{
     question: "Which pharaoh had the largest pyramid built?",
     answers: [
         {answerText: "Tuttankhammu"},
-        {answertText: "Khafre"},
+        {answerText: "Khafre"},
         {answerText: "Cheops"},
         {answerText: "Ramses 3"}
     ],
@@ -127,7 +127,7 @@ var quizContent = [{
     question: "What are the stories about the adventures of Robin Hood?",
     answers: [
         {answerText: "Annals"},
-        {answertText: "Novels"},
+        {answerText: "Novels"},
         {answerText: "Poems"},
         {answerText: "Ballads"}
     ],
@@ -138,7 +138,7 @@ var quizContent = [{
     question: "The huge power of the Mongols was created:",
     answers: [
         {answerText: "Batu"},
-        {answertText: "Genghis Khan"},
+        {answerText: "Genghis Khan"},
         {answerText: "Tamerlane"},
         {answerText: "Suleiman"}
     ],
@@ -149,7 +149,7 @@ var quizContent = [{
     question: "Which country's capital is located on the Nile River?",
     answers: [
         {answerText: "Egypt"},
-        {answertText: "USA"},
+        {answerText: "USA"},
         {answerText: "India"},
         {answerText: "Ukraine"}
     ],
@@ -160,7 +160,7 @@ var quizContent = [{
     question: "Which country's capital is Tokyo?",
     answers: [
         {answerText: "Mexico"},
-        {answertText: "Thailand"},
+        {answerText: "Thailand"},
         {answerText: "Egypt"},
         {answerText: "Japan"}
     ],
@@ -171,7 +171,7 @@ var quizContent = [{
     question: "Which state is the smallest in the world?",
     answers: [
         {answerText: "Monaco"},
-        {answertText: "Panama"},
+        {answerText: "Panama"},
         {answerText: "Vatican"},
         {answerText: "Israel"}
     ],
@@ -182,7 +182,7 @@ var quizContent = [{
     question: "Where is Brazil located?",
     answers: [
         {answerText: "South America"},
-        {answertText: "North America"},
+        {answerText: "North America"},
         {answerText: "Africa"},
         {answerText: "Asia"}
     ],
@@ -193,7 +193,7 @@ var quizContent = [{
     question: "How many months in a year have 28 days?",
     answers: [
         {answerText: "1"},
-        {answertText: "0"},
+        {answerText: "0"},
         {answerText: "2"},
         {answerText: "12"}
     ],
@@ -204,7 +204,7 @@ var quizContent = [{
     question: "What does not burn in fire and does not sink in water?",
     answers: [
         {answerText: "Grass"},
-        {answertText: "Tree"},
+        {answerText: "Tree"},
         {answerText: "Iron"},
         {answerText: "Ice"}
     ],
@@ -215,7 +215,7 @@ var quizContent = [{
     question: "What is so incredibly fragile that just saying its name will destroy it?",
     answers: [
         {answerText: "Glass"},
-        {answertText: "Crystal"},
+        {answetText: "Crystal"},
         {answerText: "Silence"},
         {answerText: "Plastic"}
     ],
@@ -226,7 +226,7 @@ var quizContent = [{
     question: "The more of it there is, the less you can see. What is it about?",
     answers: [
         {answerText: "Money"},
-        {answertText: "Health"},
+        {answerText: "Health"},
         {answerText: "Darkness"},
         {answerText: "Happiness"}
     ],
@@ -246,3 +246,5 @@ function fillQuizContent(ident) {
     document.getElementById('answerFour').innerText = quizContent[ident].answers[3].answerText;   
      
 }
+
+var ident = 1;
