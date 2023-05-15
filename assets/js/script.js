@@ -292,37 +292,52 @@ function nextQuestions() {
 function checkAnswers() {
     if (quizContent[0].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[1].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[2].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[3].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you is correct`;
     } else if (quizContent[4].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[5].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[6].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[7].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[8].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[9].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[10].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[11].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[12].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[13].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
     } else if (quizContent[14].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else if (quizContent[15].correct.includes(this.userAnswer)) {
         document.getElementById('reaction').innerText = `Great job ${user.value} you are correct`;
+        document.getElementById('reaction').style.color = "#005400";
     } else {
         document.getElementById('reaction').innerText = `Bad day... ${user.value} you are wrong`;
+        document.getElementById('reaction').style.color = "#bb2424";
     }
 }
