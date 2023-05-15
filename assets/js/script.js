@@ -347,3 +347,9 @@ function incrementCorrectAnswers() {
     let oldScore = document.getElementById('score').innerText;
     document.getElementById('score').innerText = ++oldScore;
 }
+
+//function to increase points for incorrect answers
+function incrementIncorrectAnswers() {
+    let oldScore = document.getElementById('incorrect').innerText;
+    document.getElementById('incorrect').innerText = ++oldScore;
+}
