@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", checkUserName());
 document.getElementById('new-game-btn').onclick = () => {
     document.getElementById('new-game').classList.add('none');
     document.getElementById('quiz').classList.remove('none');
-    createQuizStructure ();
+    createQuizStructure();
 };
 
 /**
@@ -389,6 +389,12 @@ function gameOver() {
     `;
     document.getElementById('quiz').innerHTML = endQuizStructure;
     calculateResult();
+
+    document.getElementById('restart').onclick = () => {
+        createQuizStructure ();
+        ident = 1;
+    };
+
 }
 
 function calculateResult() {
