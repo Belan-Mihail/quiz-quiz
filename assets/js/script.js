@@ -166,4 +166,70 @@ var quizContent = [{
     ],
     correct: 'Japan'
 },
+{
+    ident: 10,
+    question: "Which state is the smallest in the world?",
+    answers: [
+        {answerText: "Monaco"},
+        {answertText: "Panama"},
+        {answerText: "Vatican"},
+        {answerText: "Israel"}
+    ],
+    correct: 'Vatican'
+},
+{
+    ident: 11,
+    question: "Where is Brazil located?",
+    answers: [
+        {answerText: "South America"},
+        {answertText: "North America"},
+        {answerText: "Africa"},
+        {answerText: "Asia"}
+    ],
+    correct: 'South America'
+},
+{
+    ident: 12,
+    question: "How many months in a year have 28 days?",
+    answers: [
+        {answerText: "1"},
+        {answertText: "0"},
+        {answerText: "2"},
+        {answerText: "12"}
+    ],
+    correct: '12'
+},
+{
+    ident: 13,
+    question: "What does not burn in fire and does not sink in water?",
+    answers: [
+        {answerText: "Grass"},
+        {answertText: "Tree"},
+        {answerText: "Iron"},
+        {answerText: "Ice"}
+    ],
+    correct: 'Ice'
+},
+{
+    ident: 14,
+    question: "What is so incredibly fragile that just saying its name will destroy it?",
+    answers: [
+        {answerText: "Glass"},
+        {answertText: "Crystal"},
+        {answerText: "Silence"},
+        {answerText: "Plastic"}
+    ],
+    correct: 'Silence'
+},
+{
+    ident: 15,
+    question: "The more of it there is, the less you can see. What is it about?",
+    answers: [
+        {answerText: "Money"},
+        {answertText: "Health"},
+        {answerText: "Darkness"},
+        {answerText: "Happiness"}
+    ],
+    correct: 'Darkness'
+}
 ];
