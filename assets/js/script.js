@@ -49,7 +49,8 @@ function createQuizStructure () {
     </div>
     `;
     quiz.innerHTML = quizStructure;
-    fillQuizContent('0');    
+    fillQuizContent('0');  
+    nextQuestions();  
 }
 
 /**
@@ -116,7 +117,7 @@ var quizContent = [{
     question: "According to the legend of the founders of Ancient Rome, she brought up?",
     answers: [
         {answerText: "Fox"},
-        {answertText: "Goat"},
+        {answerText: "Goat"},
         {answerText: "Bear"},
         {answerText: "She-wolf"}
     ],
@@ -258,3 +259,16 @@ var ident = 1;
 * and fills in subsequent questions when you click on the answer
 */
 
+function nextQuestions() {
+    let buttons = document.getElementsByClassName('answer');
+    for (button of buttons) {
+
+        button.addEventListener('click', function() {
+            if (ident < 16) {
+                fillQuizContent(ident);
+                ident++;
+            }
+        })
+    }
+    
+}
