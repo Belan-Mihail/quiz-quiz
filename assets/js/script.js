@@ -341,3 +341,9 @@ function checkAnswers() {
         document.getElementById('reaction').style.color = "#bb2424";
     }
 }
+
+//function to increase points for correct answers
+function incrementCorrectAnswers() {
+    let oldScore = document.getElementById('score').innerText;
+    document.getElementById('score').innerText = ++oldScore;
+}
