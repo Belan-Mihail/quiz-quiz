@@ -257,8 +257,7 @@ var ident = 1;
 /**
 * a variable that will store the user's responses
 */
-
-let userAnswer = '';
+var userAnswer = '';
 
 /**
 * a function inside which iterates through the quizContent array 
@@ -266,6 +265,7 @@ let userAnswer = '';
 */
 
 function nextQuestions() {
+    
     let buttons = document.getElementsByClassName('answer');
     for (button of buttons) {
 
@@ -273,7 +273,7 @@ function nextQuestions() {
 
             userAnswer = this.innerText;
             checkAnswers();
-            if (ident < 16) {
+            if (ident < 15) {
                 fillQuizContent(ident);
                 ident++;
             }
@@ -285,3 +285,51 @@ function nextQuestions() {
 /**
 * a function that will check the answers
 */
+
+// function checkAnswers() {
+//     for (let i = 0; i < quizContent[ident].correct.length; i++) {
+//         if (quizContent[i].correct.includes(this.userAnswer)) {
+//             alert('Correct');
+//         } else {
+//             alert('Wrong');
+//         }
+//     }
+// }
+
+function checkAnswers() {
+    if (quizContent[0].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[1].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[2].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[3].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[4].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[5].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[6].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[7].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[8].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[9].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[10].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user} you is correct`);
+    } else if (quizContent[11].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[12].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[13].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[14].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you is correct`);
+    } else if (quizContent[15].correct.includes(this.userAnswer)) {
+        alert(`Great job ${user.value} you are correct`);
+    } else {
+        alert(`Bad day... ${user.value} you are wrong`);
+    }
+}
