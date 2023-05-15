@@ -160,6 +160,44 @@ header {
     transform: translateX(-50%);
 }
 
+/* Quiz End */
+
+.result-block-header {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.result-block-header span {
+    color: #bb2424;
+}
+
+.result {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+#result {
+    color: var(--secondary-color);
+    margin-left: 3rem;
+}
+
+.conclusion {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.restart-quiz {
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 15rem;
+    background: var(--accent-color);
+    border-radius: 2rem;
+}
+
+.restart-quiz:hover {
+    background: var(--secondary-color);
+}
+
 /* Footer */
 
 .footer-wrapper {

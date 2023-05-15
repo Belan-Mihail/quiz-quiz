@@ -284,7 +284,7 @@ function nextQuestions() {
             }
         })
     }
-    
+    gameOver();
 };
 
 
@@ -380,10 +380,10 @@ function incrementIncorrectAnswers() {
 function gameOver() {
     let endQuizStructure = `
     <div class="result-block" id="result-block">
-        <h2 class="result-block-header">Dear ${user.value}...</h2>
+        <h2 class="result-block-header"><span>Dear</span> ${user.value}...</h2>
         <p class="result">You result is <span id="result"></span></p>
         <p class="conclusion" id="conclusion"></p>
-        <button class='restart-quiz" id="restart">Restart Quiz</button>
+        <button class="restart-quiz" id="restart">Restart Quiz</button>
     </div>
     `;
     document.getElementById('quiz').innerHTML = endQuizStructure;
