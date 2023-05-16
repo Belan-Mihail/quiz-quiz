@@ -9,6 +9,12 @@
     <!-- style file connection -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz-Quiz</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('UC7bsBj3l_eJJHHor');
+        })();
+    </script>
 </head>
 <body>
     <!-- header start -->
@@ -23,28 +29,26 @@
         <!-- Feedback section -->
       <section class="feedback-section">
         <div class="form">
-            <form action="#" method="post" id="feedback-form">
                 <h2>Send us your feedback</h2>
                 <div class="user-name same">
                     <label for="yname" class="label">Your name</label>
                     <input type="text" id="yname" name="user_name" required placeholder="Enter your name" class="text-input">
                 </div>
                 <div class="user-email same">
-                    <label for="yemail" class="label">Your email</label>
-                    <input type="email" id="yemail" name="user_email" required placeholder="Enter your email" class="text-input">
+                    <label for="email_id" class="label">Your email</label>
+                    <input type="email" id="email_id" name="user_email" required placeholder="Enter your email" class="text-input">
                 </div>
                 <div class="user-feedback same">
-                    <label for="yfeedback" class="label">Feedback</label>
-                    <textarea id="yfeedback" name="user_email" required placeholder="Enter your feedback"></textarea>
+                    <label for="message" class="label">Feedback</label>
+                    <textarea id="message" name="user_email" required placeholder="Enter your feedback"></textarea>
                 </div>
                 <div class="radio">
                     <input type="radio" id="consent" name="user_consent" value="consent" checked required>
                     <label for="consent" class="radio-label">By clicking "Send" you agree to the processing of personal data</label>
                 </div>
                 <div class="submit-btn">
-                    <input type="submit" id="btn" value="Send"> 
+                    <input type="submit" id="btn" value="Send" onclick="sendMail()"> 
                 </div>
-            </form>
         </div>
       </section>
     </main>   
@@ -65,6 +69,6 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/590214f475.js" crossorigin="anonymous"></script>  
       <!-- script.js -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 </html>
