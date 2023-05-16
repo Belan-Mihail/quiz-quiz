@@ -25,15 +25,25 @@
         <div class="form">
             <form action="#" method="post" id="feedback-form">
                 <h2>Send us your feedback</h2>
-                <label for="yname" class="label">Your name</label>
-                <input type="text" id="yname" name="user_name" required placeholder="Enter your name" class="text-input">
-                <label for="yemail" class="label">Your email</label>
-                <input type="email" id="yemail" name="user_email" required placeholder="Enter your email" class="text-input">
-                <label for="yfeedback" class="label">Your feedback</label>
-                <textarea id="yfeedback" name="user_email" required placeholder="Enter your feedback"></textarea>
-                <input type="radio" id="consent" name="user_consent" value="consent" checked required>
-                <label for="consent" class="radio-label">By clicking "Send" you agree to the processing of personal data</label>
-                <input type="submit" id="btn" value="Send"> 
+                <div class="user-name same">
+                    <label for="yname" class="label">Your name</label>
+                    <input type="text" id="yname" name="user_name" required placeholder="Enter your name" class="text-input">
+                </div>
+                <div class="user-email same">
+                    <label for="yemail" class="label">Your email</label>
+                    <input type="email" id="yemail" name="user_email" required placeholder="Enter your email" class="text-input">
+                </div>
+                <div class="user-feedback same">
+                    <label for="yfeedback" class="label">Feedback</label>
+                    <textarea id="yfeedback" name="user_email" required placeholder="Enter your feedback"></textarea>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="consent" name="user_consent" value="consent" checked required>
+                    <label for="consent" class="radio-label">By clicking "Send" you agree to the processing of personal data</label>
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" id="btn" value="Send"> 
+                </div>
             </form>
         </div>
       </section>
