@@ -275,6 +275,7 @@ function nextQuestions() {
             }
         })
     }
+    gameOver();
 };
 
 

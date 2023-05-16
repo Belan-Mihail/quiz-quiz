@@ -122,6 +122,7 @@ header {
 .quiz-questions {
     margin-bottom: 2rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 .quiz-answers-block {
@@ -163,6 +164,7 @@ header {
     top: 3%;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
 }
 
 /* Quiz End */
@@ -306,13 +308,43 @@ header {
 /* media queries */
 
 @media screen and (max-width: 650px) {
+   /* block new game */
     .new-game-wrapper p {
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
 }
 
+@media screen and (max-width: 600px) {
+    .result-block-header {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .result {
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    
+    #result {
+        margin-left: 2rem;
+    }
+    
+    .conclusion {
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    .restart-quiz {
+        font-size: 1.2rem;
+        width: 10rem;
+    }
+    
+}
+
 @media screen and (max-width: 450px) {
+    /* block new game */
     .new-game-wrapper .text-input {
         max-width: 15rem;
     }
@@ -329,5 +361,21 @@ header {
     
     .header-row h1 {
         font-size: 1.5rem;
+    }
+
+    /* block quiz */
+    .quiz-questions {
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 1rem;
+        height: 5rem;
+        width: 10rem;
+    }
+
+    #reaction {
+        font-size: .8rem;
     }
 }
