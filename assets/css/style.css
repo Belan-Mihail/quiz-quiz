@@ -225,6 +225,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 }
 
 .form h2 {
@@ -306,6 +307,17 @@ header {
 }
 
 /* media queries */
+
+@media screen and (max-width: 770px) {
+    /* feedback page */
+    .form h2 {
+        padding: 1rem 1rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 650px) {
    /* block new game */
@@ -402,5 +414,20 @@ header {
         font-size: 1rem;
         width: 8rem;
         height: 3rem;
+    }
+
+    /* feedback page */
+    #yfeedback {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 2rem;
+    }
+
+    .text-input {
+        width: 10rem;
+    }
+
+    .form h2 {
+        font-size: 1.5rem;
     }
 }
