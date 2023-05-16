@@ -189,7 +189,7 @@ var quizContent = [{
     ident: 12,
     question: "How many months in a year have 28 days?",
     answers: [
-        {answerText: "1"},
+        {answerText: "10"},
         {answerText: "0"},
         {answerText: "2"},
         {answerText: "12"}
