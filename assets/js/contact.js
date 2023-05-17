@@ -5,6 +5,10 @@
 */
 
 function sendMail() {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+    });
+
     var params = {
         from_name : document.getElementById('yname').value,
         email_id : document.getElementById('email_id').value,
