@@ -313,11 +313,11 @@ header {
     margin: 0 auto;
     text-align: center;
     background: var(--gradient);
+    padding: 10rem;
 }
 
 .error {
     font-size: 2rem;
-    margin-top: 5rem;
 }
 
 /* media queries */
