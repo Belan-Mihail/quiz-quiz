@@ -9,3 +9,15 @@ The site presents a quiz in which the user can test their knowledge in several d
 
 ## Table of Content
 
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+
+
+## Project Goals
+
+### User Goals
+
+ - Pass an interesting quiz.
+- Test your knowledge in various disciplines.
+- Re-pass the quiz to increase your score.
+- Leave feedback.
