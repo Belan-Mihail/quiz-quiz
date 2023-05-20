@@ -11,6 +11,11 @@ The site presents a quiz in which the user can test their knowledge in several d
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    
+ 
 
 
 ## Project Goals
