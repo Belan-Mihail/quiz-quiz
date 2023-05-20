@@ -183,4 +183,21 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 ### Feedback
 
+- This section is located only on the feedback page, immediately below navigation bar.
+
+- The feedback form is consisted from name input block, email input block and textarea block for users feedback. Below is the submit button.
+
+- To be more responsive to user actions,  the button changes color after mouse hover.
+
+- For the convenience of the user, the input fields contain a placeholder text.
+
+- User stories covered: 8
+
 ### 404 page
+
+- This section is only on the 404 page, just below the navigation bar.
+
+- This section consists of a single heading placed in the center of the page and highlighted with an accent color, notifying the user that the page was not found.
+
+- this section is necessary to avoid displaying a standard 404 page with a missing page and giving the user the opportunity to select another page or go to the site's social network in this case.
+
