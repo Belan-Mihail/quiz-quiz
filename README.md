@@ -26,3 +26,10 @@ The site presents a quiz in which the user can test their knowledge in several d
 
   - Increase in the number of guests;
   - Getting positive feedback from site users;
+
+## User Experience
+
+### Target Audience
+
+- A student who wants to test his knowledge in various disciplines or wants to take a quiz.
+- An adult who wants to test their knowledge in various disciplines or wants to take a quiz.
