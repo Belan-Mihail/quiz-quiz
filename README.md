@@ -63,3 +63,9 @@ The site presents a quiz in which the user can test their knowledge in several d
 
 1. As a owner of the site, i want increase in the number of guests;
 2.  As a owner of the site, i want getting positive feedback from site users; 
+
+## Design
+
+### Design Choices
+
+The site is designed to maximize the interest of users by the simplicity and use of its use. The design of the site is designed in such a way that the user can quickly and easily figure out how to use the site and easily get the desired result (the ability to play a quiz).
