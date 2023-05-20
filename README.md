@@ -14,6 +14,8 @@ The site presents a quiz in which the user can test their knowledge in several d
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
 
  
 
@@ -56,3 +58,8 @@ The site presents a quiz in which the user can test their knowledge in several d
 7. As a user, I want to repeat the quiz to provide a new conclusion about my result
 8. As a user, I want to be able to leave feedback about the quiz.
 9. As a user, I want to be able to visit the social platforms of the project
+
+### Site Owner Stories
+
+1. As a owner of the site, i want increase in the number of guests;
+2.  As a owner of the site, i want getting positive feedback from site users; 
