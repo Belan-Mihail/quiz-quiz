@@ -25,6 +25,8 @@ The site presents a quiz in which the user can test their knowledge in several d
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+
  
 
 
@@ -107,3 +109,25 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 - HTML;
 - CSS;
 - JS;
+
+### Frameworks & Tools
+
+- **Balsamiq.** Used to create the skeleton of the project; 
+
+- **Google Fonts.** Used to connect fonts to the project;
+
+- **Adobe Color.** Used to select colors; 
+
+- **Git.** Used for version control;
+
+- **GitHub.** Used to store the project code after being pushed from Git;
+
+- **Gitpod.** Used to write html and css project code;
+
+- **Paint.NET.** Used to process screenshots and pictures.
+
+- **Favicons.io** used to added favicons on the site.
+
+- **Cssgradient.io** used to added gradient on site.
+
+- **EmailJS** used to receive user-submitted reviews.
