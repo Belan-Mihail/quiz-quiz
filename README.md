@@ -21,3 +21,8 @@ The site presents a quiz in which the user can test their knowledge in several d
 - Test your knowledge in various disciplines.
 - Re-pass the quiz to increase your score.
 - Leave feedback.
+
+### Site Owner Goals
+
+  - Increase in the number of guests;
+  - Getting positive feedback from site users;
