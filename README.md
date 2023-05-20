@@ -131,3 +131,56 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 - **Cssgradient.io** used to added gradient on site.
 
 - **EmailJS** used to receive user-submitted reviews.
+
+## Features
+
+### Homepage
+
+ The home page contains a logo and navigation section, a main section, and a footer.
+
+ ***Logo and Navigation*** 
+  - this section is at the top. On the left is the logo, on the right navigation is represented by one link to the feedback page. 
+  
+  - This section is duplicated on all pages of the site so that the user can easily navigate through the pages of the site without using the "back" button.
+
+   - This section has a color that contrasts with the background. The capital letters of the logo have an individual eye-catching color and a larger size.
+
+ ***Main(Onload)*** 
+  - Displays a welcome message, a username input field, and a Start Game button.
+
+  - User stories covered: 1;
+
+  ***Main(After Start Game)*** 
+  - Displays a question, four possible answers and statistics of correct/incorrect answers.
+
+- After the user selects an answer to the first question, a new question and new answer options appear.
+
+- If the user's answer is correct, a message is displayed stating that the answer was given correctly and a point is credited to the correct answers.
+
+- If the answer was given incorrectly, a message is displayed stating that the answer is incorrect and a score is added to the incorrect answers.
+
+- User stories covered: 2, 3, 4;
+
+***Main(At end of quiz)*** 
+
+- Displays the user's result and a text notification (depending on the result) as well as a button to repeat the quiz.
+
+- When you click on the button to repeat the quiz - the user is given the opportunity to take the quiz again
+
+- After re-passing the quiz, a new result of the user is displayed
+
+- User stories covered: 5, 6, 7;
+
+ ***Footer***  
+
+ - This section is located at the bottom of the page. in the middle, in a large, well-readable font, there is a title calling for action - visiting the social pages of the site. Below, under the heading, there are icons depicting the corresponding social networks, which are links.
+
+- This section is duplicated on all pages of the site.
+
+- The color of the text and icons contrasts well with the background of the section.
+
+- User stories covered: 9;
+
+### Feedback
+
+### 404 page
