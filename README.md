@@ -21,7 +21,10 @@ The site presents a quiz in which the user can test their knowledge in several d
     1. [Design Choices](#design-choices)
     2. [Colors](#colors)
     3. [Fonts](#fonts)
-
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
  
 
 
@@ -94,3 +97,13 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 - **Home Page:** This is the main page of the site, which displays all the stages of the quiz. The page is conditionally divided into header, main block and footer. The page is interactive and when interacting with the user, I change my main block. Initially, the main block contains a greeting, a field for entering a username and a Start game button. After clicking on the Start game button, the main block includes the question, answer options and answer statistics. At the end of the quiz, the main block includes information with the result of the participant and a button to repeat the quiz;
 
 - **Feedback Page:** contains a navigation menu in the header, a section with a feedback form, as well as a footer with links-icons to social networks.
+
+### Wireframes
+
+## Technologies Used
+
+### Languages
+
+- HTML;
+- CSS;
+- JS;
