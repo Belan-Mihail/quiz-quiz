@@ -16,6 +16,9 @@ The site presents a quiz in which the user can test their knowledge in several d
     1. [Target Audience](#target-audience)
     2. [User Requrements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
+    4. [Site Owner Stories](#site-owner-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
 
  
 
@@ -69,3 +72,7 @@ The site presents a quiz in which the user can test their knowledge in several d
 ### Design Choices
 
 The site is designed to maximize the interest of users by the simplicity and use of its use. The design of the site is designed in such a way that the user can quickly and easily figure out how to use the site and easily get the desired result (the ability to play a quiz).
+
+### Colors
+
+For the text content of the header and footer of the site, a white color was chosen, which contrasts well with the dark background. For the text content of the main block, black was chosen to contrast well with the green background. Orange was chosen for the hover effects. I used Adobe Color to select the color.
