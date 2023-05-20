@@ -44,3 +44,15 @@ The site presents a quiz in which the user can test their knowledge in several d
 - Simple and user-friendly website design;
 - Interactive interaction with the user (reaction to user actions)
 - Availability of the site on various devices
+
+### User Stories 
+
+1. As a user, I want to display my name for later use by the site.
+2. As a user, I want to test my knowledge in various disciplines.
+3. As a user, I want to have a choice of answers to a given question.
+4. As a user, I want to be notified if my answer is correct
+5. As a user, I want to get the output of my result after passing the quiz
+6. As a user, I want to be able to repeat the quiz to improve my score
+7. As a user, I want to repeat the quiz to provide a new conclusion about my result
+8. As a user, I want to be able to leave feedback about the quiz.
+9. As a user, I want to be able to visit the social platforms of the project
