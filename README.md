@@ -19,6 +19,7 @@ The site presents a quiz in which the user can test their knowledge in several d
     4. [Site Owner Stories](#site-owner-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
+    2. [Colors](#colors)
 
  
 
@@ -76,3 +77,7 @@ The site is designed to maximize the interest of users by the simplicity and use
 ### Colors
 
 For the text content of the header and footer of the site, a white color was chosen, which contrasts well with the dark background. For the text content of the main block, black was chosen to contrast well with the green background. Orange was chosen for the hover effects. I used Adobe Color to select the color.
+
+<details><summary>Screenshot (Adobe Color)</summary>
+<img src="docs/screenshot-adobe-color.jpg">
+</details>
