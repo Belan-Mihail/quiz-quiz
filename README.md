@@ -20,6 +20,7 @@ The site presents a quiz in which the user can test their knowledge in several d
 3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Colors](#colors)
+    3. [Fonts](#fonts)
 
  
 
@@ -81,3 +82,7 @@ For the text content of the header and footer of the site, a white color was cho
 <details><summary>Screenshot (Adobe Color)</summary>
 <img src="docs/screenshot-adobe-color.jpg">
 </details>
+
+### Fonts
+
+For header and footer text, the Oswald font is used, connected using google fonts. For main, Libre Baskerville font was used with more bold fonts. Used fonts are well combined with each other
