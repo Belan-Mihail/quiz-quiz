@@ -236,3 +236,19 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 <details><summary>feedback.js</summary>
 <img src="docs/testing/feedback-validation.jpg">
 </details>
+
+### Accessibility
+
+Accessibility testing was carried out using the WAVE WebAIM service. No contrast errors were found. 
+
+<details><summary>Home</summary>
+<img src="docs/testing/homepage-accessibility-check.jpg">
+</details>
+
+<details><summary>Feedback</summary>
+<img src="docs/testing/feedbackpage-accessibility-check.jpg">
+</details>
+
+<details><summary>404</summary>
+<img src="docs/testing/404-accessibility-check.jpg">
+</details>
