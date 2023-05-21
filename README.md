@@ -269,3 +269,21 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Feedback</summary>
 <img src="docs/testing/feedbackpage-performance-check.jpg">
 </details>
+
+### Device testing
+
+The website was tested on the following devices:
+
+   - Iphone 7;
+   - Iphone 12 Pro;
+
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+### Browser compatibility
+
+The website was tested on the following browsers:
+
+   - Google Chrome;
+   - Yandex Browser;
+   - Mozilla Firefox;
