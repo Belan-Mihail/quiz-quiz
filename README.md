@@ -132,6 +132,19 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 - **EmailJS** used to receive user-submitted reviews.
 
+- **Font Awsome.** Used to place icons on project pages;
+
+- **JSHint** Used to test JS code;
+
+- **Lighthouse** - Used to test Perfomance;
+
+- **W3C Markup validation service** - Used to test HTML code
+
+- **W3C Jigsaw CSS validation service**  Used to test css;
+
+- **WAVE WebAIM web accessibility evaluation tool** - Used to test accessibility
+
+
 ## Features
 
 ### Homepage
