@@ -287,3 +287,31 @@ The website was tested on the following browsers:
    - Google Chrome;
    - Yandex Browser;
    - Mozilla Firefox;
+
+   ### Testing User Stories
+
+   1. As a user, I want to display my name for later use by the site.
+
+   **Action** | **Result** 
+ -----------| ----------  
+ 1.Being on the home page, scroll to the middle. Write your name in input form | You can display your name for later use by the site 
+
+<details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/first-user-story-evidence-1.jpg">
+<img src="docs/user-stories-test-evidence/first-user-story-evidence-2.jpg">
+</details> 
+
+
+2. As a user, I want to test my knowledge in various disciplines.
+3. As a user, I want to have a choice of answers to a given question.
+4. As a user, I want to be notified if my answer is correct
+5. As a user, I want to get the output of my result after passing the quiz
+6. As a user, I want to be able to repeat the quiz to improve my score
+7. As a user, I want to repeat the quiz to provide a new conclusion about my result
+8. As a user, I want to be able to leave feedback about the quiz.
+9. As a user, I want to be able to visit the social platforms of the project
+
+### Site Owner Stories
+
+1. As a owner of the site, i want increase in the number of guests;
+2.  As a owner of the site, i want getting positive feedback from site users; 
