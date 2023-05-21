@@ -201,3 +201,17 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 - this section is necessary to avoid displaying a standard 404 page with a missing page and giving the user the opportunity to select another page or go to the site's social network in this case.
 
+
+## Testing
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+
+<details><summary>Home page</summary>
+<img src="docs/testing/homepage-validation.jpg">
+</details>
+
+<details><summary>Feedback page</summary>
+<img src="docs/testing/feedbackpage-validation.jpg">
+</details>
