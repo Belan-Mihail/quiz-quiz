@@ -216,6 +216,11 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <img src="docs/testing/feedbackpage-validation.jpg">
 </details>
 
+<details><summary>404 page</summary>
+<img src="docs/testing/404-validation.jpg">
+</details>
+
+
 
 ### CSS Validation
 
