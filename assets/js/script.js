@@ -11,7 +11,7 @@ function checkUserName () {
     } else {
         document.getElementById('new-game-btn').setAttribute('disabled', '');
 }
-};
+}
 
 document.addEventListener("DOMContentLoaded", checkUserName());
 
@@ -259,7 +259,7 @@ var finalScore = '';
 function nextQuestions() {
     
     let buttons = document.getElementsByClassName('answer');
-    for (button of buttons) {
+    for (var button of buttons) {
 
         button.addEventListener('click', function() {
             
@@ -273,9 +273,9 @@ function nextQuestions() {
                 finalScore = document.getElementById('score').innerText; //writing the final result to a variable
                 gameOver(); //when the questions are over, the function is called
             }
-        })
+        });
     }
-};
+}
 
 
 //a function that will check the answers

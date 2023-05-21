@@ -224,3 +224,5 @@ W3C Jigsaw CSS Validation Service was used to validate CSS
 <details><summary>style.css</summary>
 <img src="docs/testing/css-validation.jpg">
 </details>
+
+
