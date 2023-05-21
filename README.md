@@ -257,3 +257,15 @@ Accessibility testing was carried out using the WAVE WebAIM service. No contrast
 <details><summary>404</summary>
 <img src="docs/testing/404-accessibility-check.jpg">
 </details>
+
+### Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+<details><summary>Home</summary>
+<img src="docs/testing/homepage-performance-check.jpg">
+</details>
+
+<details><summary>Feedback</summary>
+<img src="docs/testing/feedbackpage-performance-check.jpg">
+</details>
