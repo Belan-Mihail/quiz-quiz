@@ -215,3 +215,12 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Feedback page</summary>
 <img src="docs/testing/feedbackpage-validation.jpg">
 </details>
+
+
+### CSS Validation
+
+W3C Jigsaw CSS Validation Service was used to validate CSS
+
+<details><summary>style.css</summary>
+<img src="docs/testing/css-validation.jpg">
+</details>
