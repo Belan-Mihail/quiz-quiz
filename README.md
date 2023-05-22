@@ -501,3 +501,21 @@ steps created using description on [GitHub Docs](https://docs.github.com/en/repo
 2. Click on Fork button
 
 The live link can be found here - [Quiz Quiz](https://belan-mihail.github.io/quiz-quiz/)
+
+## Credits
+
+### Content 
+
+**Text content** including descriptions of various objects are owned by the developer.
+
+**The fonts** used on the pages were connected from the site - [Google Fonts](https://fonts.google.com/)
+
+The icons used on the site were taken from the site - [Font Awesome](https://fontawesome.com/)
+
+The favicons used on the site were created by the site - [Favicons.io](https://favicon.io/)
+
+### Code
+
+- Email sending JavaScript API code was written with the help of the official EmailJS tutorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
+
+- Email sending JavaScript API code was written with the help of the video tutorials from youtube (https://youtu.be/5EZsRnJpUNU) Contact Form with Email Js | Send Emails using JavaScript through Email Js | Email Js Tutorial. Author video: ALTERCODES 
