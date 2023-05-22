@@ -391,9 +391,23 @@ The website was tested on the following browsers:
 </details> 
 
 8. As a user, I want to be able to leave feedback about the quiz.
+
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, click on the feedback link on the right side of the screen | You will be redirected to the feedback page
+ 2 fill out the feedback form and click the "Send" button | You can send feedback
+
+<details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/eighth-user-story-evidence-1.jpg">
+<img src="docs/user-stories-test-evidence/eighth-user-story-evidence-2.jpg">
+</details> 
+
 9. As a user, I want to be able to visit the social platforms of the project
 
-### Site Owner Stories
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, scroll down and click to the one of social icons | You can visit social platforms
 
-1. As a owner of the site, i want increase in the number of guests;
-2.  As a owner of the site, i want getting positive feedback from site users; 
+ <details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/ninth-user-story-evidence-1.jpg">
+</details> 
