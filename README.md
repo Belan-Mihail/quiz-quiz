@@ -435,3 +435,13 @@ The website was tested on the following browsers:
 
 
     **Status**: bug fixed;
+
+- in the div element with the class footer-heading, the start tag is H2 and the closing tag is P
+
+  **Actions**: add closing tag H2;
+
+
+  **Result**: The div element with the class footer-heading has a valid start and end tag;
+
+
+  **Status**: bug fixed;
