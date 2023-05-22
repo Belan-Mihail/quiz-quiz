@@ -301,7 +301,7 @@ The website was tested on the following browsers:
    - Yandex Browser;
    - Mozilla Firefox;
 
-   ### Testing User Stories
+  ### Testing User Stories
 
    1. As a user, I want to display my name for later use by the site.
 
@@ -314,8 +314,19 @@ The website was tested on the following browsers:
 <img src="docs/user-stories-test-evidence/first-user-story-evidence-2.jpg">
 </details> 
 
+  2. As a user, I want to test my knowledge in various disciplines.
 
-2. As a user, I want to test my knowledge in various disciplines.
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, scroll to the middle. Click button "Start Game" | You can start the quiz with questions from various disciplines (nature, history, geography, logic)
+ 
+<details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/second-user-story-evidence-1.jpg">
+<img src="docs/user-stories-test-evidence/second-user-story-evidence-2.jpg">
+</details> 
+
+
+
 3. As a user, I want to have a choice of answers to a given question.
 4. As a user, I want to be notified if my answer is correct
 5. As a user, I want to get the output of my result after passing the quiz
