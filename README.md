@@ -40,8 +40,6 @@ The site presents a quiz in which the user can test their knowledge in several d
     7. [Browser compatibility](#browser-compatability)
     8. [Testing user stories](#testing-user-stories)
 
- 
-
 
 ## Project Goals
 
@@ -314,7 +312,7 @@ The website was tested on the following browsers:
    - Yandex Browser;
    - Mozilla Firefox;
 
-  ### Testing User Stories
+### Testing User Stories
 
    1. As a user, I want to display my name for later use by the site.
 
@@ -424,3 +422,16 @@ The website was tested on the following browsers:
  <details><summary>Screenshot evidences</summary>
 <img src="docs/user-stories-test-evidence/ninth-user-story-evidence-1.jpg">
 </details> 
+
+
+## Bugs
+
+- The site logo was designed as a simple link and was not a first level heading, which is why the site did not have a first level heading
+
+    **Actions**: add a first level heading to the logo link;
+
+
+    **Result**: the site logo also became the first level heading and the first level heading appeared on the site;
+
+
+    **Status**: bug fixed;
