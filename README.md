@@ -25,19 +25,19 @@ The site presents a quiz in which the user can test their knowledge in several d
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
+    2. [Frameworks & Tools](#frameworks--tools)
 5. [Features](#features)
     1. [Homepage](#homepage)
     2. [Feedback](#feedback)
     3. [404 page](#404-page)
-6. [Testing](#validation)
+6. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [JavaScript Validation](#javascript-validation)
     4. [Accessibility](#accessibility)
     5. [Performance](#performance)
-    6. [Device testing](#performing-tests-on-various-devices)
-    7. [Browser compatibility](#browser-compatability)
+    6. [Device testing](#device-testing)
+    7. [Browser compatibility](#browser-compatibility)
     8. [Testing user stories](#testing-user-stories)
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
@@ -489,7 +489,7 @@ The website was tested on the following browsers:
 1. In the GitHub repository navigate to the Settings tab
 2. On the menu select "Pages"
 3. For the source select Branch: master
-4. After the website completed automaticaly you will be a ribbon on the top saying: "Your site is published at https://belan-mihail.github.io/hamburg-weekend/"
+4. After the website completed automaticaly you will be a ribbon on the top saying: "Your site is published at https://belan-mihail.github.io/quiz-quiz/"
 
 **How to clone the website:**
 1. On GitHub.com, navigate to the main page of the repository.
