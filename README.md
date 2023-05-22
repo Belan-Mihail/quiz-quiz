@@ -519,3 +519,12 @@ The favicons used on the site were created by the site - [Favicons.io](https://f
 - Email sending JavaScript API code was written with the help of the official EmailJS tutorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
 
 - Email sending JavaScript API code was written with the help of the video tutorials from youtube (https://youtu.be/5EZsRnJpUNU) Contact Form with Email Js | Send Emails using JavaScript through Email Js | Email Js Tutorial. Author video: ALTERCODES 
+
+## Acknowledgements
+
+I would like to express my sincere gratitude:
+
+  - My mentor Mo Shami for his advice and support.
+  - My daughter Alisa and my wife Snizhana for always giving me inspiration and strength to go forward.
+  - The government of the city of Hamburg and the employees of the job center Mitti for my opportunity to study at these courses.
+  - To all people who are in solidarity and support Ukraine
