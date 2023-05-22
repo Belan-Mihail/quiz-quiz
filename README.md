@@ -455,3 +455,13 @@ The website was tested on the following browsers:
 
 
     **Status**: bug fixed;
+  
+  - missed 404 page validation check
+
+    **Actions**: check the validation of the 404 page and add screenshots-evidence of passing the check to the HTML VALIDATION block;
+
+
+      **Result**: the validity of the 404 page was checked, evidence of passing the check by this page was added to README;
+
+
+      **Status**: bug fixed;
