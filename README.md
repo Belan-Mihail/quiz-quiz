@@ -337,10 +337,20 @@ The website was tested on the following browsers:
 <img src="docs/user-stories-test-evidence/third-user-story-evidence-2.jpg">
 </details> 
 
-  
+  4. As a user, I want to be notified if my answer is correct  
+
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, scroll to the middle. Click button "Start Game" | You can start a quiz
+ 2 Click on one of the answers to the question | Depending on whether the answer is correct or not, you will receive a notification and an increase in points for a correct or incorrect answer.
+
+<details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/fourth-user-story-evidence-1.jpg">
+<img src="docs/user-stories-test-evidence/fourth-user-story-evidence-2.jpg">
+<img src="docs/user-stories-test-evidence/fourth-user-story-evidence-3.jpg">
+</details> 
 
 
-4. As a user, I want to be notified if my answer is correct
 5. As a user, I want to get the output of my result after passing the quiz
 6. As a user, I want to be able to repeat the quiz to improve my score
 7. As a user, I want to repeat the quiz to provide a new conclusion about my result
