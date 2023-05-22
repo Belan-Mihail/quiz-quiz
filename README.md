@@ -350,9 +350,31 @@ The website was tested on the following browsers:
 <img src="docs/user-stories-test-evidence/fourth-user-story-evidence-3.jpg">
 </details> 
 
-
 5. As a user, I want to get the output of my result after passing the quiz
+
+
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, scroll to the middle. Click button "Start Game" | You can start a quiz
+ 2 Answer all quiz questions | You will receive the output of the quiz results
+
+<details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/fifth-user-story-evidence-1.jpg">
+</details> 
+
 6. As a user, I want to be able to repeat the quiz to improve my score
+
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, scroll to the middle. Click button "Start Game" | You can start a quiz
+ 2 Answer all quiz questions | You will receive the output of the quiz results
+ 3 Click button "Restart Quiz" | the quiz will restart
+
+<details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/sixth-user-story-evidence-1.jpg">
+<img src="docs/user-stories-test-evidence/sixth-user-story-evidence-2.jpg">
+</details> 
+
 7. As a user, I want to repeat the quiz to provide a new conclusion about my result
 8. As a user, I want to be able to leave feedback about the quiz.
 9. As a user, I want to be able to visit the social platforms of the project
