@@ -39,6 +39,12 @@ The site presents a quiz in which the user can test their knowledge in several d
     6. [Device testing](#performing-tests-on-various-devices)
     7. [Browser compatibility](#browser-compatability)
     8. [Testing user stories](#testing-user-stories)
+7. [Bugs](#bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+    1. [Content](#content)
+    2. [Code](#code)
+10. [Acknowledgements](#acknowledgements)
 
 
 ## Project Goals
