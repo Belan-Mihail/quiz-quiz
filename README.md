@@ -376,6 +376,20 @@ The website was tested on the following browsers:
 </details> 
 
 7. As a user, I want to repeat the quiz to provide a new conclusion about my result
+
+  **Action** | **Result** 
+ -----------| ----------  
+ 1 Being on the home page, scroll to the middle. Click button "Start Game" | You can start a quiz
+ 2 Answer all quiz questions | You will receive the output of the quiz results
+ 3 Click button "Restart Quiz" | the quiz will restart
+ 4 Answer again all quiz questions | You will receive the output of the new quiz results
+
+ <details><summary>Screenshot evidences</summary>
+<img src="docs/user-stories-test-evidence/seventh-user-story-evidence-1.jpg">
+<img src="docs/user-stories-test-evidence/seventh-user-story-evidence-2.jpg">
+<img src="docs/user-stories-test-evidence/seventh-user-story-evidence-3.jpg">
+</details> 
+
 8. As a user, I want to be able to leave feedback about the quiz.
 9. As a user, I want to be able to visit the social platforms of the project
 
