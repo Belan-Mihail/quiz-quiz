@@ -465,3 +465,13 @@ The website was tested on the following browsers:
 
 
       **Status**: bug fixed;
+
+  - incorrect spelling of the object property (second answer) in all objects of the quizContent array, as a result of which question 2 was not displayed
+
+      **Actions**: fix object property value (second answer) in all objects of the quizContent array
+
+
+      **Result**: after the fix, the second question of the quiz now displays correctly;
+
+
+      **Status**: bug fixed;
