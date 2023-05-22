@@ -445,3 +445,13 @@ The website was tested on the following browsers:
 
 
   **Status**: bug fixed;
+
+- checking scripts using the JSHint Static Code Analysis Tool service found an extra semicolon in the code and the absence of a semicolon in other parts of the code
+
+    **Actions**: remove extra semicolons and add missing ;
+
+
+    **Result**: the script passes validation in the JSHint Static Code service;
+
+
+    **Status**: bug fixed;
