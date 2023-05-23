@@ -21,8 +21,14 @@ function sendMail() {
         message : document.getElementById('message').value
     };
     //function for sending users messages from feedback form
-    emailjs.send('service_atmswmr', 'template_vlu0u11', params).then(function (res) {
+    let userName = document.getElementById('yname');
+    let userEmail = document.getElementById('email_id');
+    let userFeedback = document.getElementById('message');
+
+    if (userName.value.length != 0 && userEmail.value.includes('@') && userFeedback.value.length != 0) {
+       emailjs.send('service_atmswmr', 'template_vlu0u11', params).then(function (res) {
         alert("Success!" + res.status);
-    });
+    }); 
+    }
 }
 
