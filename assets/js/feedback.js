@@ -12,6 +12,8 @@ function sendMail() {
     //prevent standart form action
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
+        //reset form after sending
+        document.getElementById('contact-form').reset();
     });
 
     //binding form elements to properties emailjs
@@ -20,13 +22,15 @@ function sendMail() {
         email_id : document.getElementById('email_id').value,
         message : document.getElementById('message').value
     };
-    //function for sending users messages from feedback form
+    
     let userName = document.getElementById('yname');
     let userEmail = document.getElementById('email_id');
     let userFeedback = document.getElementById('message');
 
+    //check empty input/textarea 
     if (userName.value.length != 0 && userEmail.value.includes('@') && userFeedback.value.length != 0) {
-       emailjs.send('service_atmswmr', 'template_vlu0u11', params).then(function (res) {
+    //function for sending users messages from feedback form   
+        emailjs.send('service_atmswmr', 'template_vlu0u11', params).then(function (res) {
         alert("Success!" + res.status);
     }); 
     }
