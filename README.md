@@ -119,6 +119,69 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 ### Wireframes
 
+<details><summary>Home Page</summary>
+
+<details><summary>Home Page Start Screen</summary>
+
+<details><summary>Home Page Start Screen Fullscreen</summary>
+<img src="docs/wireframe-images/homepage-start-screen.png">
+</details>
+
+<details><summary>Home Page Start Screen Ipad</summary>
+<img src="docs/wireframe-images/homepage-start-screen-ipad.png">
+</details>
+
+<details><summary>Home Page Start Screen Mobile</summary>
+<img src="docs/wireframe-images/homepage-start-screen-mobile.png">
+</details>
+</details>
+
+<details><summary>Home Page Quiz Screen</summary>
+
+<details><summary>Home Page Quiz Screen Fullscreen</summary>
+<img src="docs/wireframe-images/homepage-quiz-screen.png">
+</details>
+
+<details><summary>Home Page Quiz Screen Ipad</summary>
+<img src="docs/wireframe-images/homepage-quiz-screen-ipad.png">
+</details>
+
+<details><summary>Home Page Quiz Screen Mobile</summary>
+<img src="docs/wireframe-images/homepage-quiz-screen-mobile.png">
+</details>
+</details>
+
+<details><summary>Home Page End Quiz Screen</summary>
+
+<details><summary>Home Page End Quiz Screen Fullscreen</summary>
+<img src="docs/wireframe-images/homepage-end-quiz-screen.png">
+</details>
+
+<details><summary>Home Page End Quiz Screen Ipad</summary>
+<img src="docs/wireframe-images/homepage-end-quiz-screen-ipad.png">
+</details>
+
+<details><summary>Home Page End Quiz Screen Mobile</summary>
+<img src="docs/wireframe-images/homepage-end-quiz-screen-mobile.png">
+</details>
+</details>
+</details>
+
+<details><summary>Feedback Page</summary>
+
+<details><summary>Feedback Page Fullscreen</summary>
+<img src="docs/wireframe-images/feedback.png">
+</details>
+
+<details><summary>Feedback Page Ipad</summary>
+<img src="docs/wireframe-images/feedback-ipad.png">
+</details>
+
+<details><summary>Feedback Page Mobile</summary>
+<img src="docs/wireframe-images/feedback-mobile.png">
+</details>
+</details>
+
 ## Technologies Used
 
 ### Languages
