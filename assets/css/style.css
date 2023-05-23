@@ -331,6 +331,11 @@ header {
     .form {
         width: 100%;
     }
+
+    .quiz-questions {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -366,9 +371,14 @@ header {
         font-size: 1.2rem;
         width: 10rem;
     } 
+
+    .quiz-questions {
+        margin-bottom: 1.3rem;
+        font-size: 1.2rem;
+    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
     /* block new game */
     .new-game-wrapper .text-input {
         max-width: 15rem;
