@@ -1,3 +1,7 @@
+
+(function() {
+    emailjs.init('UC7bsBj3l_eJJHHor');
+})();
 /**
  * Sends data collected in contact form to email after the submit button
  * Code written with the help of the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
