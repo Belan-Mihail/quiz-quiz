@@ -238,10 +238,14 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
    - This section has a color that contrasts with the background. The capital letters of the logo have an individual eye-catching color and a larger size.
 
+   ![Logo an Navigation](docs/feature-images/logo-and-navigation.jpg)
+
  ***Main(Onload)*** 
   - Displays a welcome message, a username input field, and a Start Game button.
 
   - User stories covered: 1;
+
+  ![Main(Onload)](docs/feature-images/main-onload.jpg)
 
   ***Main(After Start Game)*** 
   - Displays a question, four possible answers and statistics of correct/incorrect answers.
@@ -254,6 +258,8 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 - User stories covered: 2, 3, 4;
 
+![Main(After Start Game)](docs/feature-images/main-after-start-game.jpg)
+
 ***Main(At end of quiz)*** 
 
 - Displays the user's result and a text notification (depending on the result) as well as a button to repeat the quiz.
@@ -264,6 +270,8 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 - User stories covered: 5, 6, 7;
 
+![Main(At end of quiz)](docs/feature-images/main-at-end-of-quiz.jpg)
+
  ***Footer***  
 
  - This section is located at the bottom of the page. in the middle, in a large, well-readable font, there is a title calling for action - visiting the social pages of the site. Below, under the heading, there are icons depicting the corresponding social networks, which are links.
@@ -273,6 +281,8 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 - The color of the text and icons contrasts well with the background of the section.
 
 - User stories covered: 9;
+
+![Footer](docs/feature-images/footer.jpg)
 
 ### Feedback
 
@@ -286,6 +296,8 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 - User stories covered: 8
 
+![Feedback](docs/feature-images/feedback.jpg)
+
 ### 404 page
 
 - This section is only on the 404 page, just below the navigation bar.
@@ -294,6 +306,7 @@ The page is structured in a well know and user friendly. Upon arriving to the we
 
 - this section is necessary to avoid displaying a standard 404 page with a missing page and giving the user the opportunity to select another page or go to the site's social network in this case.
 
+![404 page](docs/feature-images/404.jpg)
 
 ## Testing
 
